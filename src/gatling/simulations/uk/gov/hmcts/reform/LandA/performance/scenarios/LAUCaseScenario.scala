@@ -18,7 +18,7 @@ object LAUCaseScenario {
 
 
   val CaseUsers = csv("CaseUsers.csv").circular
-  val CaseSearches = csv("CCDsearchinfo.csv").circular
+  val CaseSearches = csv("CaseSearchInfo.csv").circular
   val S2S_BASE_URI = "http://rpe-service-auth-provider-perftest.service.core-compute-perftest.internal/testing-support"
   val baseurl = "https://lau.perftest.platform.hmcts.net"
 
@@ -53,7 +53,7 @@ object LAUCaseScenario {
   }
 
   val LAUCaselogin =
-    feed(CCDusers)
+    feed(CaseUsers)
     .group("LAU Case Login") {
      exec(http("LAU Case login")
         .post(uri3 + "?client_id=lau&response_type=code&redirect_uri=https://lau.perftest.platform.hmcts.net/oauth2/callback")

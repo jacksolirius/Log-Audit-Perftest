@@ -8,19 +8,19 @@ import scala.concurrent.duration._
 
 class mainSimulation extends Simulation{
 
-  val CCDusers = csv("CaseUsers.csv").circular
-  val CaseSearches = csv("CCDsearchinfo.csv").circular
+  val CaseUsers = csv("CaseUsers.csv").circular
+  val CaseSearches = csv("CaseSearchInfo.csv").circular
 
 
   val CCDlogin = scenario("CCD Login")
     .repeat(1) {
-    feed(CCDusers)
+    feed(CaseUsers)
     exec(LAUCaseScenario.LAUCaselogin)
   }
 
   val CCDsearch = scenario("CCD Search")
     .repeat(1) {
-      feed(CCDusers)
+      feed(CaseUsers)
       feed(CaseSearches)
       exec(LAUCaseScenario.LAUCaseSearch)
     }
@@ -32,7 +32,7 @@ class mainSimulation extends Simulation{
         .exec(LAUCaseScenario.LAUCaseSearch)
         .exec(LAUCaseScenario.LAUCaseNextPage)
         .exec(LAUCaseScenario.LAUcsvCaseActivityDownload)
-        .exec(LAUCaseScenario.LAUcsvCaseSearchDownload)
+        //.exec(LAUCaseScenario.LAUcsvCaseSearchDownload)
     )
 
   val CompleteLogonSim = (scenario("Complete")
