@@ -1,0 +1,10 @@
+{
+  "simulation": "uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation",
+  "simulationId": "mainsimulation",
+  "start": 1643192579552,
+  "description": "XUI Journeys for all Services",
+  "scenarios": ["Complete"],
+  "assertions": [
+
+  ]
+}

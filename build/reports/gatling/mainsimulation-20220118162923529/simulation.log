@@ -1,0 +1,4 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642523363529	XUI Journeys for all Services	3.1.1
+ERROR	CCDlogin: Failed to build request: No attribute named 'email' is defined 	1642523364051
+USER	Complete a Task	1	START	1642523364034	1642523364034
+USER	Complete a Task	1	END	1642523364034	1642523366076

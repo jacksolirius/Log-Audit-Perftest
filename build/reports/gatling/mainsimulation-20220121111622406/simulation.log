@@ -1,0 +1,8 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642763782406	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642763783727	1642763783727
+REQUEST	1		CSRF check	1642763783759	1642763783882	OK	 
+REQUEST	1		CCDlogin	1642763783991	1642763784515	OK	 
+REQUEST	1		CCDlogin Redirect 1	1642763784524	1642763785130	OK	 
+REQUEST	1		CCDlogin Redirect 2	1642763785134	1642763785188	OK	 
+ERROR	CCD Search: Failed to build request: No attribute named 's2sToken' is defined 	1642763790110
+USER	Complete	1	END	1642763783727	1642763792124

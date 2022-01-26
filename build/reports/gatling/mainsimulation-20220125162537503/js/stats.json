@@ -1,0 +1,403 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 3288,
+        "ok": 3288,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 3119,
+        "ok": 3119,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 3288,
+        "ok": 3288,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 4847,
+        "ok": 4847,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 6094,
+        "ok": 6094,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 6344,
+        "ok": 6344,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 50
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 50
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.09090909090909091,
+        "ok": 0.09090909090909091,
+        "ko": 0
+    }
+},
+"contents": {
+"group_s2s-authorisati-2a1ea": {
+          "type": "GROUP",
+"name": "S2S Authorisation",
+"path": "S2S Authorisation",
+"pathFormatted": "group_s2s-authorisati-2a1ea",
+"stats": {
+    "name": "S2S Authorisation",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.045454545454545456,
+        "ok": 0.045454545454545456,
+        "ko": 0
+    }
+},
+"contents": {
+"req_paymentapitoken-3d101": {
+        "type": "REQUEST",
+        "name": "PaymentAPIToken_020_GetServiceToken",
+"path": "S2S Authorisation / PaymentAPIToken_020_GetServiceToken",
+"pathFormatted": "req_s2s-authorisati-b6a49",
+"stats": {
+    "name": "PaymentAPIToken_020_GetServiceToken",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 6406,
+        "ok": 6406,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.045454545454545456,
+        "ok": 0.045454545454545456,
+        "ko": 0
+    }
+}
+    }
+}
+
+     },"group_ccd-csrf-check-2c1af": {
+          "type": "GROUP",
+"name": "CCD csrf Check",
+"path": "CCD csrf Check",
+"pathFormatted": "group_ccd-csrf-check-2c1af",
+"stats": {
+    "name": "CCD csrf Check",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.045454545454545456,
+        "ok": 0.045454545454545456,
+        "ko": 0
+    }
+},
+"contents": {
+"req_csrf-check-e0594": {
+        "type": "REQUEST",
+        "name": "CSRF check",
+"path": "CCD csrf Check / CSRF check",
+"pathFormatted": "req_ccd-csrf-check--bb82c",
+"stats": {
+    "name": "CSRF check",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 169,
+        "ok": 169,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.045454545454545456,
+        "ok": 0.045454545454545456,
+        "ko": 0
+    }
+}
+    }
+}
+
+     }
+}
+
+}

@@ -1,0 +1,7 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642765199904	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642765200484	1642765200484
+REQUEST	1		PaymentAPIToken_020_GetServiceToken	1642765200509	1642765200572	OK	 
+REQUEST	1		CSRF check	1642765210602	1642765210714	OK	 
+REQUEST	1		CCDlogin	1642765210790	1642765211350	OK	 
+REQUEST	1		CCDlogin Redirect 1	1642765211357	1642765211358	KO	j.n.UnknownHostException: lau.perftest.platform.hmcts.net: nodename nor servname provided, or not known
+USER	Complete	1	END	1642765200484	1642765211367

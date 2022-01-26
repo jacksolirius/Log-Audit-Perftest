@@ -1,0 +1,8 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642764447981	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642764448629	1642764448629
+REQUEST	1		CSRF check	1642764448660	1642764448757	OK	 
+REQUEST	1		CCDlogin	1642764448868	1642764449345	OK	 
+REQUEST	1		CCDlogin Redirect 1	1642764449353	1642764449809	OK	 
+REQUEST	1		CCDlogin Redirect 2	1642764449813	1642764449913	OK	 
+ERROR	CCD Search: Failed to build request: No baseUrl defined but provided url is relative : /case-search 	1642764454836
+USER	Complete	1	END	1642764448629	1642764456839

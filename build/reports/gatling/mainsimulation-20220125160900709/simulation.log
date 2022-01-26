@@ -1,0 +1,5 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1643126940709	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1643126941559	1643126941559
+REQUEST	1	S2S Authorisation	PaymentAPIToken_020_GetServiceToken	1643126941583	1643126944934	OK	 
+GROUP	1	S2S Authorisation	1643126941563	1643126944961	3351	OK
+USER	Complete	1	END	1643126941559	1643126954967

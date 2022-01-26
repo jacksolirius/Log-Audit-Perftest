@@ -1,0 +1,4 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642523152066	XUI Journeys for all Services	3.1.1
+ERROR	CCDlogin: Failed to build request: Resource recordedsimulation/0000_request.txt not found 	1642523153111
+USER	Complete a Task	1	START	1642523153096	1642523153096
+USER	Complete a Task	1	END	1642523153096	1642523155133

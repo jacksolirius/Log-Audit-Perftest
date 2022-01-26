@@ -1,0 +1,551 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 6,
+        "ok": 6,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 1223,
+        "ok": 1223,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 2209,
+        "ok": 2209,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 247,
+        "ok": 247,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 466,
+        "ok": 466,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 4739,
+        "ok": 4739,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 5868,
+        "ok": 5868,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 5,
+        "percentage": 83
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 17
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.4,
+        "ok": 0.4,
+        "ko": 0
+    }
+},
+"contents": {
+"req_csrf-check-e0594": {
+        "type": "REQUEST",
+        "name": "CSRF check",
+"path": "CSRF check",
+"pathFormatted": "req_csrf-check-e0594",
+"stats": {
+    "name": "CSRF check",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 142,
+        "ok": 142,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 142,
+        "ok": 142,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 142,
+        "ok": 142,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 142,
+        "ok": 142,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 142,
+        "ok": 142,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 142,
+        "ok": 142,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 142,
+        "ok": 142,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.06666666666666667,
+        "ok": 0.06666666666666667,
+        "ko": 0
+    }
+}
+    },"req_ccdlogin-edf91": {
+        "type": "REQUEST",
+        "name": "CCDlogin",
+"path": "CCDlogin",
+"pathFormatted": "req_ccdlogin-edf91",
+"stats": {
+    "name": "CCDlogin",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 352,
+        "ok": 352,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 352,
+        "ok": 352,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 352,
+        "ok": 352,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 352,
+        "ok": 352,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 352,
+        "ok": 352,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 352,
+        "ok": 352,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 352,
+        "ok": 352,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.06666666666666667,
+        "ok": 0.06666666666666667,
+        "ko": 0
+    }
+}
+    },"req_ccdlogin-redire-46869": {
+        "type": "REQUEST",
+        "name": "CCDlogin Redirect 1",
+"path": "CCDlogin Redirect 1",
+"pathFormatted": "req_ccdlogin-redire-46869",
+"stats": {
+    "name": "CCDlogin Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 504,
+        "ok": 504,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 504,
+        "ok": 504,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 504,
+        "ok": 504,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 504,
+        "ok": 504,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 504,
+        "ok": 504,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 504,
+        "ok": 504,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 504,
+        "ok": 504,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.06666666666666667,
+        "ok": 0.06666666666666667,
+        "ko": 0
+    }
+}
+    },"req_ccdlogin-redire-a1b87": {
+        "type": "REQUEST",
+        "name": "CCDlogin Redirect 2",
+"path": "CCDlogin Redirect 2",
+"pathFormatted": "req_ccdlogin-redire-a1b87",
+"stats": {
+    "name": "CCDlogin Redirect 2",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 52,
+        "ok": 52,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.06666666666666667,
+        "ok": 0.06666666666666667,
+        "ko": 0
+    }
+}
+    },"req_ccd-search-aa754": {
+        "type": "REQUEST",
+        "name": "CCD Search",
+"path": "CCD Search",
+"pathFormatted": "req_ccd-search-aa754",
+"stats": {
+    "name": "CCD Search",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 6150,
+        "ok": 6150,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.06666666666666667,
+        "ok": 0.06666666666666667,
+        "ko": 0
+    }
+}
+    },"req_ccd-search-redi-41ce4": {
+        "type": "REQUEST",
+        "name": "CCD Search Redirect 1",
+"path": "CCD Search Redirect 1",
+"pathFormatted": "req_ccd-search-redi-41ce4",
+"stats": {
+    "name": "CCD Search Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.06666666666666667,
+        "ok": 0.06666666666666667,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

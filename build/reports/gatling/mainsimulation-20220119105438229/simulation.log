@@ -1,0 +1,5 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642589678229	XUI Journeys for all Services	3.1.1
+USER	Complete a Task	1	START	1642589678777	1642589678777
+ERROR	CSRF check: Failed to build request: No baseUrl defined but provided url is relative : /login?client_id=lau&response_type=code&redirect_uri=https://lau.aat.platform.hmcts.net/oauth2/callback 	1642589678787
+REQUEST	1		CCDlogin	1642589678809	1642589678908	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 403
+USER	Complete a Task	1	END	1642589678777	1642589678940

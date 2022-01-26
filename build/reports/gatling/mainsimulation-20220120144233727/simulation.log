@@ -1,0 +1,6 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642689753727	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642689754423	1642689754423
+REQUEST	1		CSRF check	1642689754450	1642689761637	KO	css((input[name='_csrf'],Some(value))).find.exists, found nothing
+ERROR	CCDlogin: Failed to build request: No attribute named 'csrfToken' is defined 	1642689761734
+REQUEST	1		CCD Search	1642689761737	1642689761797	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 403
+USER	Complete	1	END	1642689754423	1642689763725

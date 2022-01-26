@@ -1,0 +1,13 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1643126515076	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1643126515668	1643126515668
+REQUEST	1	S2S Authorisation for Logons Audit	PaymentAPIToken_020_GetServiceToken	1643126515697	1643126518892	OK	 
+GROUP	1	S2S Authorisation for Logons Audit	1643126515671	1643126518920	3195	OK
+REQUEST	1	Logons Next Page	Idam Second Page Click	1643126528929	1643126529667	OK	 
+REQUEST	1	Logons Next Page	Idam Second Page Click Redirect 1	1643126529673	1643126529701	OK	 
+REQUEST	1	Logons Next Page	Idam Second Page Click Redirect 2	1643126529702	1643126529901	OK	 
+GROUP	1	Logons Next Page	1643126528928	1643126532893	965	OK
+REQUEST	1	Logons Audit CSV Download	CSV Download	1643126535896	1643126535984	OK	 
+REQUEST	1	Logons Audit CSV Download	CSV Download Redirect 1	1643126535986	1643126536052	OK	 
+REQUEST	1	Logons Audit CSV Download	CSV Download Redirect 2	1643126536055	1643126536303	OK	 
+GROUP	1	Logons Audit CSV Download	1643126535894	1643126536306	402	OK
+USER	Complete	1	END	1643126515668	1643126539303

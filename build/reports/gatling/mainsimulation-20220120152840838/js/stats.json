@@ -1,0 +1,317 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 3,
+        "ok": 2,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 11,
+        "ok": 424,
+        "ko": 11
+    },
+    "maxResponseTime": {
+        "total": 487,
+        "ok": 487,
+        "ko": 11
+    },
+    "meanResponseTime": {
+        "total": 307,
+        "ok": 456,
+        "ko": 11
+    },
+    "standardDeviation": {
+        "total": 211,
+        "ok": 32,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 424,
+        "ok": 456,
+        "ko": 11
+    },
+    "percentiles2": {
+        "total": 456,
+        "ok": 471,
+        "ko": 11
+    },
+    "percentiles3": {
+        "total": 481,
+        "ok": 484,
+        "ko": 11
+    },
+    "percentiles4": {
+        "total": 486,
+        "ok": 486,
+        "ko": 11
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 2,
+        "percentage": 67
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 1,
+        "percentage": 33
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.5,
+        "ok": 1.0,
+        "ko": 0.5
+    }
+},
+"contents": {
+"req_csrf-check-e0594": {
+        "type": "REQUEST",
+        "name": "CSRF check",
+"path": "CSRF check",
+"pathFormatted": "req_csrf-check-e0594",
+"stats": {
+    "name": "CSRF check",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 487,
+        "ok": 487,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 487,
+        "ok": 487,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 487,
+        "ok": 487,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 487,
+        "ok": 487,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 487,
+        "ok": 487,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 487,
+        "ok": 487,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 487,
+        "ok": 487,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.5,
+        "ok": 0.5,
+        "ko": 0
+    }
+}
+    },"req_ccdlogin-edf91": {
+        "type": "REQUEST",
+        "name": "CCDlogin",
+"path": "CCDlogin",
+"pathFormatted": "req_ccdlogin-edf91",
+"stats": {
+    "name": "CCDlogin",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 424,
+        "ok": 424,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 424,
+        "ok": 424,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 424,
+        "ok": 424,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 424,
+        "ok": 424,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 424,
+        "ok": 424,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 424,
+        "ok": 424,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 424,
+        "ok": 424,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.5,
+        "ok": 0.5,
+        "ko": 0
+    }
+}
+    },"req_ccdlogin-redire-46869": {
+        "type": "REQUEST",
+        "name": "CCDlogin Redirect 1",
+"path": "CCDlogin Redirect 1",
+"pathFormatted": "req_ccdlogin-redire-46869",
+"stats": {
+    "name": "CCDlogin Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 11,
+        "ok": 0,
+        "ko": 11
+    },
+    "maxResponseTime": {
+        "total": 11,
+        "ok": 0,
+        "ko": 11
+    },
+    "meanResponseTime": {
+        "total": 11,
+        "ok": 0,
+        "ko": 11
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 11,
+        "ok": 0,
+        "ko": 11
+    },
+    "percentiles2": {
+        "total": 11,
+        "ok": 0,
+        "ko": 11
+    },
+    "percentiles3": {
+        "total": 11,
+        "ok": 0,
+        "ko": 11
+    },
+    "percentiles4": {
+        "total": 11,
+        "ok": 0,
+        "ko": 11
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 1,
+        "percentage": 100
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.5,
+        "ok": 0,
+        "ko": 0.5
+    }
+}
+    }
+}
+
+}

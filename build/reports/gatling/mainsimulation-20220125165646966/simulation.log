@@ -1,0 +1,8 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1643129806966	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1643129807443	1643129807443
+REQUEST	1	S2S Authorisation for Logons Audit	PaymentAPIToken_020_GetServiceToken	1643129807467	1643129811255	OK	 
+GROUP	1	S2S Authorisation for Logons Audit	1643129807446	1643129811281	3788	OK
+REQUEST	1	Logons Audit User Login	CSRF check	1643129817284	1643129818703	OK	 
+GROUP	1	Logons Audit User Login	1643129817282	1643129818775	1419	OK
+REQUEST	1		Logons Audit login	1643129820713	1643129821057	KO	substring(User ID).find.exists, found nothing
+USER	Complete	1	END	1643129807443	1643129821069

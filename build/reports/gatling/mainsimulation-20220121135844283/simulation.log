@@ -1,0 +1,10 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642773524283	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642773525671	1642773525671
+REQUEST	1		CSRF check	1642773525691	1642773525802	OK	 
+REQUEST	1		CCDlogin	1642773525899	1642773526687	OK	 
+REQUEST	1		CCDlogin Redirect 1	1642773526695	1642773527174	OK	 
+REQUEST	1		CCDlogin Redirect 2	1642773527178	1642773527240	OK	 
+REQUEST	1		CCD Search	1642773532170	1642773538130	OK	 
+REQUEST	1		CCD Search Redirect 1	1642773538133	1642773538235	OK	 
+ERROR	CCD Second Page Click: Failed to build request: No baseUrl defined but provided url is relative : /case-activity/page/2 	1642773540237
+USER	Complete	1	END	1642773525671	1642773543250

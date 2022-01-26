@@ -1,0 +1,5 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642606151346	XUI Journeys for all Services	3.1.1
+USER	Complete a Task	1	START	1642606152254	1642606152254
+REQUEST	1		CSRF check	1642606152275	1642606152374	OK	 
+REQUEST	1		CCDlogin	1642606152465	1642606152571	OK	 
+USER	Complete a Task	1	END	1642606152254	1642606152580

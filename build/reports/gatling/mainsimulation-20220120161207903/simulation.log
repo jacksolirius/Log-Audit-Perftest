@@ -1,0 +1,7 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642695127903	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642695128575	1642695128575
+REQUEST	1		CSRF check	1642695128599	1642695128692	OK	 
+REQUEST	1		CCDlogin	1642695128775	1642695129104	OK	 
+REQUEST	1		CCDlogin Redirect 1	1642695129111	1642695129399	OK	 
+REQUEST	1		CCDlogin Redirect 2	1642695129403	1642695129448	KO	headerRegex((Set-Cookie,Idam.Session=(.*))).find.exists, found nothing
+USER	Complete	1	END	1642695128575	1642695129466

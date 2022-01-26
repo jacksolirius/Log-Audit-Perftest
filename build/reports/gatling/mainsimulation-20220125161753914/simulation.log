@@ -1,0 +1,5 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1643127473914	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1643127474400	1643127474400
+REQUEST	1		PaymentAPIToken_020_GetServiceToken	1643127474424	1643127477705	OK	 
+REQUEST	1		CSRF check	1643127487731	1643127487963	OK	 
+USER	Complete	1	END	1643127474400	1643127488038

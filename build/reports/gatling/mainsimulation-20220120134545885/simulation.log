@@ -1,0 +1,6 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642686345885	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642686346644	1642686346644
+REQUEST	1		CSRF check	1642686346667	1642686346916	OK	 
+REQUEST	1		CCDlogin	1642686347010	1642686348182	OK	 
+ERROR	CCD Search: Failed to build request: No attribute named 'startTimestamp' is defined 	1642686348190
+USER	Complete	1	END	1642686346644	1642686350115

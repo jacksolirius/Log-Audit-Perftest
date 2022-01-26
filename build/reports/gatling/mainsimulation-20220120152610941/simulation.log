@@ -1,0 +1,5 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642692370941	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642692371459	1642692371459
+ERROR	CSRF check: Failed to build request: No attribute named 'baseurl' is defined 	1642692371473
+ERROR	CCDlogin: Failed to build request: No attribute named 'csrfToken' is defined 	1642692371485
+USER	Complete	1	END	1642692371459	1642692371487

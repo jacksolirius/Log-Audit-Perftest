@@ -1,0 +1,9 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1643127733954	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1643127734465	1643127734465
+REQUEST	1	S2S Authorisation	PaymentAPIToken_020_GetServiceToken	1643127734490	1643127737432	OK	 
+GROUP	1	S2S Authorisation	1643127734468	1643127737459	2942	OK
+REQUEST	1	CCD csrf Check	CSRF check	1643127747461	1643127748966	OK	 
+GROUP	1	CCD csrf Check	1643127747459	1643127749042	1505	OK
+ERROR	CCDlogin: Failed to build request: No attribute named 'email' is defined 	1643127749046
+GROUP	1	CCD login	1643127749042	1643127749047	0	KO
+USER	Complete	1	END	1643127734465	1643127753964

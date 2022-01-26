@@ -1,0 +1,6 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642686404292	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642686404806	1642686404806
+REQUEST	1		CSRF check	1642686404830	1642686404909	OK	 
+REQUEST	1		CCDlogin	1642686405051	1642686405828	OK	 
+ERROR	CCD Search: Failed to build request: No attribute named 'probate' is defined 	1642686405836
+USER	Complete	1	END	1642686404806	1642686407721

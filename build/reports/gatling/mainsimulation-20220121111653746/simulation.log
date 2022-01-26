@@ -1,0 +1,8 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642763813746	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642763814243	1642763814243
+REQUEST	1		PaymentAPIToken_020_GetServiceToken	1642763814262	1642763814471	KO	j.n.UnknownHostException: rpe-service-auth-provider-perftest.service.core-compute-perftest.internal: nodename nor servname provided, or not known
+REQUEST	1		CSRF check	1642763824506	1642763824609	OK	 
+REQUEST	1		CCDlogin	1642763824694	1642763824847	OK	 
+REQUEST	1		CCDlogin Redirect 1	1642763824854	1642763825268	OK	 
+REQUEST	1		CCDlogin Redirect 2	1642763825271	1642763825345	OK	 
+USER	Complete	1	END	1642763814243	1642763825355

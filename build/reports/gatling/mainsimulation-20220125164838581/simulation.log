@@ -1,0 +1,14 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1643129318581	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1643129319072	1643129319072
+REQUEST	1	S2S Authorisation for Logons Audit	PaymentAPIToken_020_GetServiceToken	1643129319098	1643129322182	OK	 
+GROUP	1	S2S Authorisation for Logons Audit	1643129319075	1643129322208	3084	OK
+REQUEST	1	Logons Audit User Login	CSRF check	1643129328206	1643129331031	OK	 
+GROUP	1	Logons Audit User Login	1643129328204	1643129331104	2825	OK
+REQUEST	1		Logons Audit login	1643129333037	1643129333730	OK	 
+REQUEST	1		Logons Audit login Redirect 1	1643129333737	1643129334242	OK	 
+REQUEST	1		Logons Audit login Redirect 2	1643129334245	1643129334309	OK	 
+REQUEST	1		Search	1643129339316	1643129340191	KO	j.n.UnknownHostException: lau.perftest.platform.hmcts.netlogon-search: nodename nor servname provided, or not known
+REQUEST	1	Logons Next Page	Idam Second Page Click	1643129342197	1643129342945	OK	 
+REQUEST	1	Logons Next Page	Idam Second Page Click Redirect 1	1643129342948	1643129342989	OK	 
+GROUP	1	Logons Next Page	1643129342196	1643129342992	789	OK
+USER	Complete	1	END	1643129319072	1643129342994

@@ -1,0 +1,5 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1643196289293	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1643196291803	1643196291803
+REQUEST	1	S2S Authorisation	PaymentAPIToken_020_GetServiceToken	1643196291829	1643196291858	KO	j.n.UnknownHostException: rpe-service-auth-provider-perftest.service.core-compute-perftest.internal: nodename nor servname provided, or not known
+GROUP	1	S2S Authorisation	1643196291807	1643196291878	29	KO
+USER	Complete	1	END	1643196291803	1643196291881

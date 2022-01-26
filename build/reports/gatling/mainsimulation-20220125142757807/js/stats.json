@@ -1,0 +1,243 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "maxResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "meanResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles2": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles3": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles4": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 1,
+        "percentage": 100
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.0,
+        "ok": 0,
+        "ko": 1.0
+    }
+},
+"contents": {
+"group_s2s-authorisati-2a1ea": {
+          "type": "GROUP",
+"name": "S2S Authorisation",
+"path": "S2S Authorisation",
+"pathFormatted": "group_s2s-authorisati-2a1ea",
+"stats": {
+    "name": "S2S Authorisation",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "maxResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "meanResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles2": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles3": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles4": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 1,
+        "percentage": 100
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.0,
+        "ok": 0,
+        "ko": 1.0
+    }
+},
+"contents": {
+"req_paymentapitoken-3d101": {
+        "type": "REQUEST",
+        "name": "PaymentAPIToken_020_GetServiceToken",
+"path": "S2S Authorisation / PaymentAPIToken_020_GetServiceToken",
+"pathFormatted": "req_s2s-authorisati-b6a49",
+"stats": {
+    "name": "PaymentAPIToken_020_GetServiceToken",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "maxResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "meanResponseTime": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles2": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles3": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "percentiles4": {
+        "total": 383,
+        "ok": 0,
+        "ko": 383
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 1,
+        "percentage": 100
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.0,
+        "ok": 0,
+        "ko": 1.0
+    }
+}
+    }
+}
+
+     }
+}
+
+}

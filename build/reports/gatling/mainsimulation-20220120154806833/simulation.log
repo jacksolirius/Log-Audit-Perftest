@@ -1,0 +1,7 @@
+RUN	uk.gov.hmcts.reform.LandA.performance.simulations.mainSimulation	mainsimulation	1642693686833	XUI Journeys for all Services	3.1.1
+USER	Complete	1	START	1642693687355	1642693687355
+REQUEST	1		CSRF check	1642693687381	1642693687452	OK	 
+REQUEST	1		CCDlogin	1642693687578	1642693687740	OK	 
+REQUEST	1		CCDlogin Redirect 1	1642693687748	1642693687943	OK	 
+REQUEST	1		CCDlogin Redirect 2	1642693687947	1642693687989	KO	substring(User jhgthfghfc).find.exists, found nothing
+USER	Complete	1	END	1642693687355	1642693688005
